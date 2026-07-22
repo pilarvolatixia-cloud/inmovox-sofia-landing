@@ -186,3 +186,7 @@ footer{padding:56px 0 32px;border-top:1px solid var(--line)}
   .cookie-actions{flex-direction:column-reverse}
   .cookie-btn{width:100%}
 }
+
+/* ===== Logo de marca ===== */
+.brand-logo{width:36px;height:36px;display:block;flex:0 0 auto;object-fit:contain}
+.foot-brand .brand .brand-logo,.foot-cols .brand .brand-logo{width:34px;height:34px}

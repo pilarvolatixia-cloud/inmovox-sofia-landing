@@ -1,0 +1,46 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="InmoVox AI">
+  <defs>
+    <linearGradient id="ivGrad" x1="14%" y1="88%" x2="86%" y2="12%">
+      <stop offset="0" stop-color="#1f63b8"/>
+      <stop offset="0.55" stop-color="#2b84c8"/>
+      <stop offset="1" stop-color="#41d2c2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Badge -->
+  <circle cx="256" cy="256" r="242" fill="url(#ivGrad)"/>
+  <circle cx="256" cy="256" r="242" fill="none" stroke="#68b4ea" stroke-width="9" opacity="0.55"/>
+
+  <!-- Decorative arc + arrow over the top -->
+  <path d="M150 150 A 175 175 0 0 1 386 150"
+        fill="none" stroke="#6fe6d3" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
+  <path d="M372 120 L392 150 L358 158 Z" fill="#6fe6d3" opacity="0.95"/>
+
+  <!-- House (white outline, panes) -->
+  <g fill="none" stroke="#ffffff" stroke-width="20" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M150 262 L214 190 L278 262"/>
+    <path d="M164 254 L164 360 L264 360 L264 254"/>
+  </g>
+  <!-- Window panes -->
+  <g fill="#ffffff">
+    <rect x="196" y="286" width="30" height="30" rx="4"/>
+    <rect x="234" y="286" width="30" height="30" rx="4"/>
+    <rect x="196" y="324" width="30" height="30" rx="4"/>
+    <rect x="234" y="324" width="30" height="30" rx="4"/>
+  </g>
+
+  <!-- Voice / signal waves radiating right -->
+  <g fill="none" stroke="#ffffff" stroke-linecap="round">
+    <path d="M300 262 A 60 60 0 0 1 300 358" stroke-width="20"/>
+    <path d="M330 236 A 96 96 0 0 1 330 384" stroke-width="20"/>
+    <path d="M360 212 A 132 132 0 0 1 360 408" stroke-width="20"/>
+  </g>
+
+  <!-- AI speech bubble -->
+  <g>
+    <circle cx="392" cy="196" r="38" fill="#dff5f1"/>
+    <path d="M372 226 L360 250 L392 232 Z" fill="#dff5f1"/>
+    <text x="392" y="208" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-size="34" font-weight="700" fill="#1f63b8">AI</text>
+  </g>
+</svg>
